@@ -1,10 +1,7 @@
 import { driver, expect } from '@wdio/globals'
 import  scrollScreen from '../../helpers/scrollScreen.js'
 import LoginPage from '../pageobject/LoginPage.js'
-import ProductsPage from '../pageobject/ProductsPage.js'
-import { isAscending, isDescending, isHighToLow, isLowToHigh } from '../../helpers/ProductSorting.js'
-import DetailProductPage from '../pageobject/DetailProductPage.js'
-import CartPage from '../pageobject/CartPage.js'
+
 
 describe ('Tes fitur login aplikasi ecommerce', async () => {
     it('login dengan username dan password yang benar', async () => {

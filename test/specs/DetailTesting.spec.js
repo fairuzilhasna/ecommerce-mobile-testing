@@ -2,8 +2,8 @@ import { driver, expect } from '@wdio/globals'
 import  scrollScreen from '../../helpers/scrollScreen.js'
 import LoginPage from '../pageobject/LoginPage.js'
 import ProductsPage from '../pageobject/ProductsPage.js'
-import { isAscending, isDescending, isHighToLow, isLowToHigh } from '../../helpers/ProductSorting.js'
 import DetailProductPage from '../pageobject/DetailProductPage.js'
+
 
 describe ('Tes fitur halaman detail product', async () => {
     it('User memilih product Sauce Labs Backpack', async () => {
